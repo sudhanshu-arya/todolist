@@ -1,0 +1,73 @@
+.top{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(77, 77, 77);
+    font-size: 600%;
+    text-align: center;
+    margin: 0;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6), -5px 1px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.work{
+    padding: 1%;
+    margin: 1% 0% 3% 0%;
+    background-color: rgb(221, 221, 221);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5), -3px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.workinfo{
+    font-size: 350%;
+    margin: 1% 0 0 1%;
+    padding: 0;
+    width: 88%;
+    display:inline-block;
+    background-color: rgb(221, 221, 221);
+
+}
+
+a{
+    color: black;
+    font-size: 200%;
+    text-decoration: none;
+
+}
+
+.link{
+    font-family: Helvetica, Arial;
+    width: 9%;
+    display:inline-block;
+    text-align: center;
+    margin:0;
+    border-radius: 50%;
+    padding: 25px 0px 25px 0px;
+    background-color: rgb(100, 0, 0);
+
+}
+
+.time{
+    font-size: 50%;
+}
+
+#listinp{
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 350%;
+    border: 0px;
+    height: 120px;
+    width: 100%;
+    margin: 0;
+    padding: 0 2% 0 2%;
+    outline: none;
+    background-color: rgb(77, 77, 77);
+    box-shadow: -3px -3px 5px rgba(0, 0, 0, 0.5), 3px -1px 5px rgba(0, 0, 0, 0.5);
+}
+
+#listbutton{
+    visibility: hidden;
+}
+

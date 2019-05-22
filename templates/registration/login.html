@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <style>
+    body{
+      width: 96%;
+      padding: 0;
+      margin: 0;
+      background-color: rgb(192, 192, 192);
+    }
+
+    p{
+      font-size: 350%;
+      text-align: center;
+    }
+    #top{
+      margin-top: 0px;
+      margin-bottom: 15%;
+      padding: 20px;
+      width: 100%;
+      background-color: rgb(77, 77, 77);
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5),
+                 -3px -3px 5px rgba(0, 0, 0, 0.5);
+
+    }
+    label{
+      display: block;
+      
+    }
+    input{
+      font-size: 100%;
+      border: 0px;
+      height: 120px;
+      width: 100%;
+      margin: 0;
+      padding: 0 2% 0 2%;
+      outline: none;
+      background-color: rgb(77, 77, 77);
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5),
+                 -3px -3px 5px rgba(0, 0, 0, 0.5);
+    }
+    button{
+      font-size: 100%;
+      background-color: grey;
+      padding: 20px;
+      border: none;
+      border-radius: 20px;
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5),
+                 -3px -3px 5px rgba(0, 0, 0, 0.5);
+    }
+    a{
+      color: black;
+      text-decoration: none;
+      background-color: grey;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5),
+                 -3px -3px 5px rgba(0, 0, 0, 0.5);
+    }
+    a:visited{
+      color:black;
+    }
+
+  
+  </style>
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="user-scalable=no">
+
+  <title>Login</title>
+
+</head>
+
+<body>
+
+    <p id="top">Login</p>
+  <div>
+
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <p>
+    <button type="submit" class="log">Login</button>
+    <a class="log" href="/signup/">Sign Up</a>
+    </p>
+  </form>
+  </div>
+</body>
+</html>
+

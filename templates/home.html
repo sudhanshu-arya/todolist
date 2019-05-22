@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    {% for obj in objlist %}
+        <div class="work">
+            <p class="workinfo">{{obj.info}}<br>
+            <span class="time">{{obj.date_time}}</span>
+            </p> <p class="link"><a href="/removeid/{{obj.id}}">X</a></p>
+        </div>
+
+    {% endfor %}
+    
+{% endblock %}>
