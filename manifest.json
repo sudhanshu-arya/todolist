@@ -1,7 +1,7 @@
 {
     "name": "To Do",
     "short_name": "To Do",
-    "start_url": "http://0.0.0.0:8000/",
+    "start_url": "https://todolist000.herokuapp.com/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
